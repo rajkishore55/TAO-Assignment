@@ -1,0 +1,227 @@
+body {
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.header-primary-text-24 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.text-right {
+  float: right !important;
+}
+
+header {
+  color: black;
+  padding: 40px;
+  text-align: left;
+  font-weight: bold;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4242ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.text-primary-color {
+  color: #4242ff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.pricing-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.pricing-subtext {
+  font-size: 12px;
+  color: grey;
+}
+
+.login-with-google-btn {
+  transition: background-color 0.3s, box-shadow 0.3s;
+
+  padding: 12px 34px 12px 110px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 150px 11px;
+
+  &:hover {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &:active {
+    background-color: #eeeeee;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25),
+      0 0 0 3px #c8dafc;
+  }
+}
+
+.signup-form-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.signup-form-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d8d7d7;
+  border-radius: 1px;
+}
+
+.signup-form-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.divider::before {
+  content: " ";
+  height: 1px;
+  width: 160px;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  background-color: lightgray;
+}
+
+.divider::after {
+  content: " ";
+  height: 1px;
+  width: 160px;
+  position: absolute;
+  top: 60%;
+  right: 0;
+  background-color: lightgray;
+}
+
+.pricing-page {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.pricing-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+}
+.card-container {
+  justify-content: space-around;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.card-no-border {
+  border: none !important;
+}
+
+.card-border {
+  border: 2px solid black !important;
+}
+
+.card-text-left {
+  text-align: left;
+}
+
+.card-header-title {
+  height: 48px;
+}
+
+.card-header-title-name {
+  background-color: #000000;
+  color: #eeeeee;
+  padding: 10px;
+}
+
+.card-body-content {
+  text-align: left;
+  padding: 10px;
+}
+
+.choose-file-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+.choose-file-text {
+  font-size: 14px;
+  color: rgb(96, 86, 86);
+}
